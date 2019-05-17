@@ -31,7 +31,7 @@
         var objgl = null;
         var objProgShaders = null;
         var objScene3D = null;
-        var objCellule = new Cellule();
+
 
         var OBJ3D_SOL = 0;
         var OBJ3D_MURS = 1;
@@ -76,7 +76,7 @@
             var objScene3D = new Object();
             var tabObjets3D = new Array();
 	    var obj3D = new Object();
-		
+	    var objCellule = new Cellule();
             // Mettre les textures dans la scène
             objScene3D.textures = creerTextures(objgl, tabImages);
 
@@ -92,7 +92,7 @@
 
 
            
-            //tabObjets3D.push(obj3D);
+            //tabObjets3D.push(objCellule);
 
 
             // Mettre les objets 3D sur la scène
